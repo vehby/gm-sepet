@@ -1,0 +1,240 @@
+#checkoutpage{
+  padding: 70px 30px;
+  color: #333333;
+}
+.mainprice-m{
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.mainprice-s{
+  font-size: 28px;
+  font-weight: bold;
+}
+.checkoutpage-title h2{
+  font-size: 18px;
+  font-weight: normal;
+  border-bottom: 1px solid #d6d6d6;
+  line-height: 40px;
+}
+.select-btn{
+  border-radius: 4px!important;
+  display: flex;
+  justify-content: center;
+  float: left;
+  width: 100%;
+  min-height: 6.23529rem;
+  padding: .70588rem .88235rem;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  border-spacing: 0;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: hsla(0,0%,100%,.8);
+  flex-direction: column;
+}
+
+.select-btn2{
+  border-radius: 4px!important;
+
+  justify-content: center;
+  float: left;
+  width: 100%;
+  min-height: 6.23529rem;
+  padding: 15px;
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  border-spacing: 0;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: hsla(0,0%,100%,.8);
+  flex-direction: column;
+}
+
+
+
+.select-btn2:hover{
+border-color: #333333;
+}
+
+
+.select-btn2 .select-btn-content {
+  float: left;
+}
+
+.select-btn2 .select-btn-content p{
+  float: left;
+  padding-left: 15px;
+  margin-bottom: 5px;
+
+}
+
+.select-btn2 .select-btn-content .colorimg{
+  width: 22px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+
+.select-btn:hover{
+border-color: #333333;
+}
+
+.select-btn-active{
+  border: 2px solid #ff9000;
+}
+
+.select-btn .select-btn-content {
+  float: left;
+}
+
+.select-btn .select-btn-content p{
+  float: left;
+  padding-left: 15px;
+  margin-bottom: 5px;
+
+}
+
+.select-btn .select-btn-content .colorimg{
+  width: 22px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.gpimg{
+  width: 100px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+.text-center{
+  text-align: center;
+}
+
+
+.mpzero{
+  margin: 0!important;
+  padding: 0!important;
+}
+.pr0{
+  padding-right: 0px!important;
+}
+.pr10{
+  padding-right: 10px!important;
+}
+.pr20{
+  padding-right: 20px!important;
+}
+.pr0{
+  padding-right: 0!important;
+}
+
+
+.pb10{
+  padding-bottom: 10px;
+}
+.pb20{
+  padding-bottom: 20px;
+}
+.prb20{
+  padding-right: 20px!important;
+  padding-bottom: 20px!important;
+}
+.phone-capacity{
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 20px;
+}
+.phone-capacity span{
+  font-size: 14px;
+  font-weight: 300;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  /* IE 5-7 */
+  filter: alpha(opacity=75);
+  /* Netscape */
+  -moz-opacity: 0.7;
+  /* Safari 1.x */
+  -khtml-opacity: 0.7;
+  /* Good browsers */
+  opacity: 0.7;
+}
+.gpprice{
+  position: absolute;
+  right: 1px;
+  font-weight: 700;
+  font-size:20px;
+
+}
+.gedpp{
+  padding: 2rem 1rem;
+}
+.addtocartd{
+  background-color: #f9f9f9;
+  padding: 30px 30px;
+  width: 97%!important;
+
+}
+.addtocartd p{
+  padding-bottom: 15px;
+}
+.paymentd-btn{
+  background-color: #ff9000;
+  background: -webkit-linear-gradient(#ff9000,#f97b00);
+  background: linear-gradient(#ff9000,#f97b00);
+  color: #fff;
+  padding: 12px 12px;
+  border-radius: 4px;
+  border: 1px solid #d1742c;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.paymentd-btn:hover{
+  background-color: #ff9000;
+    background: -webkit-linear-gradient(#ff9000,#f97b00);
+    background: linear-gradient(#ff9000,#f97b00);
+    border-color: #ff9000;
+    text-decoration: none;
+    color: #fff!important;
+}
+.form-selector {
+    display: inline-block;
+    width: 100%!important;
+    height: 62px!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    top: 0;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 99;
+}
+
+.stickyslider{
+  position: -webkit-sticky!important;
+   position: sticky!important;
+   top: 0!important;
+   padding: 0!important;
+}
+
+.stick {
+  position: -webkit-sticky!important;
+  position: sticky!important;
+  top: 0!important;
+}
+.slider-nav{
+  margin-top: 30px;
+}
+/* Mobile devices */
+@media only screen and (max-width:600px)
+{
+  .stick {
+    position: relative!important;
+  }
+}
