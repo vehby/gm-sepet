@@ -32,6 +32,7 @@ $('input:checkbox').change(function(){
    slidesToScroll: 1,
    arrows: false,
    fade: true,
+   responsive:true,
    asNavFor: '.slider-nav'
  });
  $('.slider-nav').slick({
@@ -64,7 +65,7 @@ $('input:checkbox').change(function(){
        breakpoint: 480,
        settings: {
          slidesToShow: 2,
-         slidesToScroll: 2
+         slidesToScroll: 1
        }
      }
    ]

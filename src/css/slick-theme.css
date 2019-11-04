@@ -202,3 +202,14 @@
     opacity: .75;
     color: black;
 }
+.slider-nav img{
+      border: 1px solid #d4d4d4;
+      padding: 10px;
+      background-color: #f6f6f6;
+      border-radius: 4px;
+      outline: none;
+}
+
+.slider-nav img:hover{
+  border: 1px solid #000;
+}
