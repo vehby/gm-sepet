@@ -50,7 +50,7 @@ $('input:checkbox').change(function(){
          slidesToShow: 3,
          slidesToScroll: 3,
          infinite: true,
-         dots: true
+         dots: false
        }
      },
      {

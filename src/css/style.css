@@ -219,7 +219,10 @@ border-color: #333333;
 }
 
 .stickyslider{
-  width: 95%;
+
+    width: 90%;
+    margin: auto;
+
 
 }
 
@@ -236,5 +239,39 @@ border-color: #333333;
 {
   .stick {
     position: relative!important;
+    top: 0!important;
   }
+  h1 {
+    font-size: 28px!important;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+.mainprice{
+  text-align: center;
+}
+
+.selectbottonmobile{
+    display: flex;
+
+
+    width: 100%;
+    min-height: 6.23529rem;
+    padding: 0 0 15px 0!important;
+
+    box-sizing: border-box;
+    border-spacing: 0;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: hsla(0,0%,100%,.8);
+    flex-direction: column;
+}
+.pr0{
+  padding: 0!important;
+}
+
+.pr20{
+  padding: 0!important;
+}
+
 }
