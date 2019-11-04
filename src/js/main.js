@@ -9,7 +9,7 @@ $(document).ready(function(){
       $(this).parent().addClass("select-btn-active");
     });
 });
-
+// capacity color sim selection end
 
 
 
@@ -97,4 +97,5 @@ window.smoothScroll = function(target) {
     scroll(scrollContainer, scrollContainer.scrollTop, targetY, 0);
 }
 
-// smoothScroll end
+
+// smooth scroll BLA BLA

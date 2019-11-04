@@ -226,7 +226,7 @@ border-color: #333333;
 .stick {
   position: -webkit-sticky!important;
   position: sticky!important;
-  top: 0!important;
+  top: 30px!important;
 }
 .slider-nav{
   margin-top: 30px;

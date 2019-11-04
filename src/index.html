@@ -493,23 +493,21 @@
 
                   <div c id="stickyslider">
                   <div class="slider-for">
-                    <div><img class="img-responsive" src="img/10108129050674.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108129017906.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108128985138.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108129050674.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108129017906.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108128985138.jpg" alt=""></div>
-
+                    <div><img class="img-responsive" src="img/black/1.jpg" alt="" id="picture"></div>
+                    <div><img class="img-responsive" src="img/black/2.jpg" alt="" id="picture"></div>
+                    <div><img class="img-responsive" src="img/black/3.jpg" alt="" id="picture"></div>
+                    <div><img class="img-responsive" src="img/black/4.jpg" alt="" id="picture"></div>
+                    <div><img class="img-responsive" src="img/black/.jpg" alt="" id="picture"></div>
+                    <div><img class="img-responsive" src="img/black/3.jpg" alt="" id="picture"></div>
                   </div>
 
                   <div class="slider-nav">
-                    <div><img class="img-responsive" src="img/10108129050674-t.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108129017906-t.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108128985138-t.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108129050674-t.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108129017906-t.jpg" alt=""></div>
-                    <div><img class="img-responsive" src="img/10108128985138-t.jpg" alt=""></div>
-
+                    <div><img class="img-responsive" src="img/black/1-t.jpg" alt="" id="picture" ></div>
+                    <div><img class="img-responsive" src="img/black/2-t.jpg" alt="" id="picture" ></div>
+                    <div><img class="img-responsive" src="img/black/3-t.jpg" alt="" id="picture" ></div>
+                    <div><img class="img-responsive" src="img/black/1-t.jpg" alt="" id="picture" ></div>
+                    <div><img class="img-responsive" src="img/black/2-t.jpg" alt="" id="picture" ></div>
+                    <div><img class="img-responsive" src="img/black/3-t.jpg" alt="" id="picture" ></div>
                   </div>
 
 
@@ -524,28 +522,28 @@
                         <br>
                         <span class="mainprice-s">999,00 TL</span>
                     </div>
-                    <div class="checkoutpage-title pr20 pb10">
+                    <div class="checkoutpage-title pr20 pb10" id="phonecolors">
                         <h2>Renk Seçin</h2>
                     </div>
                     <div class="col-md-6 mpzero prb20">
-                        <div class="select-btn" onclick="smoothScroll(document.getElementById('capacity'))">
-                            <input type="radio" name="color" value="gold" class="form-selector" id="radio1">
+                        <div class="select-btn" onclick="smoothScroll(document.getElementById('phonecolors'))">
+                            <input type="radio" name="color" value="gold" class="form-selector" id="gold">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/golden-color-icon.png" alt="">Gold (Altın)
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mpzero prb20">
-                        <div class="select-btn" onclick="smoothScroll(document.getElementById('capacity'))">
-                            <input type="radio" name="color" value="gold" class="form-selector" id="radio1">
+                        <div class="select-btn" onclick="smoothScroll(document.getElementById('phonecolors'))">
+                            <input type="radio" name="color" value="gold" class="form-selector" id="radio2">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/black-color-icon.png" alt="">Black (Siyah)
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6 mpzero prb20">
-                        <div class="select-btn"  onclick="smoothScroll(document.getElementById('capacity'))">
-                            <input type="radio" name="color" value="gold" class="form-selector" id="radio1">
+                        <div class="select-btn"  onclick="smoothScroll(document.getElementById('phonecolors'))">
+                            <input type="radio" name="color" value="gold" class="form-selector" id="radio3">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/space-gray-color-icon.png" alt="">SpaceGray (Uzay Gri)
                             </div>
@@ -553,8 +551,8 @@
                     </div>
                     <div class="col-md-6 mpzero prb20">
                         <input type="radio" name="color" value="red" class="form-selector">
-                        <div class="select-btn"  onclick="smoothScroll(document.getElementById('capacity'))">
-                            <input type="radio" name="color" value="gold" class="form-selector" id="radio1">
+                        <div class="select-btn"  onclick="smoothScroll(document.getElementById('phonecolors'))">
+                            <input type="radio" name="color" value="gold" class="form-selector" id="radio4">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/golden-color-icon.png" alt="">Red (Kırmızı)
                             </div>
@@ -567,7 +565,7 @@
                         <h2>Kapasite Seçin</h2>
                     </div>
                     <div class="col-md-3 mpzero prb20">
-                        <div class="select-btn text-center" onclick="smoothScroll(document.getElementById('sim'))">
+                        <div class="select-btn text-center" onclick="smoothScroll(document.getElementById('capacity'))">
                             <input type="radio" name="capacity" value="32 GB" class="form-selector" id="radio1">
                             <div class="select-btn-content  phone-capacity">
                                 32 GB
@@ -577,7 +575,7 @@
                         </div>
                     </div>
                     <div class="col-md-3 col-xs-6 mpzero prb20">
-                        <div class="select-btn text-center" onclick="smoothScroll(document.getElementById('sim'))">
+                        <div class="select-btn text-center" onclick="smoothScroll(document.getElementById('capacity'))">
                             <input type="radio" name="capacity" value="64 GB" class="form-selector" id="radio1">
                             <div class="select-btn-content phone-capacity">
                                 64 GB
@@ -594,7 +592,7 @@
                     </div>
 
                     <div class="col-md-6 mpzero prb20">
-                        <div class="select-btn" onclick="smoothScroll(document.getElementById('support'))">
+                        <div class="select-btn" onclick="smoothScroll(document.getElementById('sim'))">
                             <input type="radio" name="sim" value="Single Sim" class="form-selector" id="radio1">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/single-sim-card-icon.png" alt="">Tek Sim Kart
@@ -603,7 +601,7 @@
                     </div>
 
                     <div class="col-md-6 mpzero prb20">
-                        <div class="select-btn" onclick="smoothScroll(document.getElementById('support'))">
+                        <div class="select-btn" onclick="smoothScroll(document.getElementById('sim'))">
                             <input type="radio" name="sim" value="Dual Sim" class="form-selector" id="radio1">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/dual-sim-card-icon.png" alt="">Çift Sim Kart
