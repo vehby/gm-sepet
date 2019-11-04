@@ -30,16 +30,18 @@ $('input:checkbox').change(function(){
  $('.slider-for').slick({
    slidesToShow: 1,
    slidesToScroll: 1,
-   arrows: true,
+   arrows: false,
    fade: true,
    asNavFor: '.slider-nav'
  });
  $('.slider-nav').slick({
-   slidesToShow: 3,
+   slidesToShow: 4,
    slidesToScroll: 1,
    asNavFor: '.slider-for',
    dots: false,
    centerMode: true,
+   variableWidth: false,
+   arrows: true,
    focusOnSelect: true,
    responsive: [
      {

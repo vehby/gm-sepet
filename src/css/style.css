@@ -190,6 +190,7 @@ border-color: #333333;
   font-size: 14px;
   font-weight: bold;
   width: 100%;
+  outline: none;
 }
 
 .paymentd-btn:hover{
@@ -199,6 +200,7 @@ border-color: #333333;
     border-color: #ff9000;
     text-decoration: none;
     color: #fff!important;
+    outline: none;
 }
 .form-selector {
     display: inline-block;
@@ -217,10 +219,8 @@ border-color: #333333;
 }
 
 .stickyslider{
-  position: -webkit-sticky!important;
-   position: sticky!important;
-   top: 0!important;
-   padding: 0!important;
+  width: 95%;
+
 }
 
 .stick {
