@@ -23,13 +23,11 @@
     <meta property="og:site_name" content="General Mobile">
     <link rel="home" href="https://www.generalmobile.com/">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css">
-    <link rel="stylesheet" href="css/slick.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style-min.css">
 
     <link href="https://www.generalmobile.com/Content/gm?v=bnWdVsaeeM1Gcm-L5cEQ3vsNK6Eak7LEFc4f2JAggJ81" rel="stylesheet" />
 
-    <!-- Anti-flicker snippet (recommended)  -->
     <style>
         .async-hide {
             opacity: 0 !important
@@ -382,29 +380,28 @@
             </div>
         </div>
     </div>
+
+    <!-- new checkout html -->
     <section id="checkoutpage">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-6 stick">
-
                     <div class="stickyslider">
                         <div class="slider-for">
-                            <div><img class="img-responsive" src="img/black/1.jpg" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/2.jpg" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/3.jpg" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/1.jpg" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/2.jpg" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/3.jpg" alt="" id="picture"></div>
+                            <div><img class="img-responsive" src="img/black/1.jpg" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/2.jpg" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/3.jpg" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/1.jpg" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/2.jpg" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/3.jpg" alt=""></div>
                         </div>
-
                         <div class="slider-nav">
-                            <div><img class="img-responsive" src="img/black/1-t.png" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/2-t.png" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/3-t.png" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/1-t.png" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/2-t.png" alt="" id="picture"></div>
-                            <div><img class="img-responsive" src="img/black/3-t.png" alt="" id="picture"></div>
+                            <div><img class="img-responsive" src="img/black/1-t.png" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/2-t.png" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/3-t.png" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/1-t.png" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/2-t.png" alt=""></div>
+                            <div><img class="img-responsive" src="img/black/3-t.png" alt=""></div>
                         </div>
 
                     </div>
@@ -510,55 +507,55 @@
                         <h2>GM Ekstra Destek Paketi</h2>
                     </div>
 
-                    <div class="col-md-12 mpzero prb20">
+                    <div class="col-md-12 mpzero prb20 text-xs-center">
                         <label>
-                            <div class="select-btn2">
+                            <div class="select-btn2"  onclick="smoothScroll(document.getElementById('supportpackage'))">
                                 <div class="select-btn-content">
                                     <div class="col-md-3 mpzero"><img class="gpimg mpzero" src="img/gm-hep-guvende-p1.png" alt=""></div>
                                     <div class="col-md-9 mpzero">
                                         <div class="gpprice">150 TL</div>
-                                        <p style="width:80%;">GM Hep Güvende ile telefonunuzu kazalara karşı ücretsiz tamir edelim.</p>
+                                        <p class="pwidth">GM Hep Güvende ile telefonunuzu kazalara karşı ücretsiz tamir edelim.</p>
 
                                         <p><a href="#">Detaylı bilgi al</a></p>
                                     </div>
                                 </div>
-                                <input type="checkbox" name="SupportPackage" value="GM Hep Güvende" style="margin-top:15px;"> <a href="#">Kullanım şartlarını ve sözleşmeyi onaylıyorum</a>
+                                <input type="checkbox" name="SupportPackage" value="GM Hep Güvende" style="margin-top:15px;"> <a href="/tr/gm-hep-guvende">Kullanım şartlarını ve sözleşmeyi onaylıyorum</a>
                             </div>
                         </label>
 
                     </div>
 
-                    <div class="col-md-12 mpzero prb20">
+                    <div class="col-md-12 mpzero prb20 text-xs-center">
                         <label>
                             <div class="select-btn2">
                                 <div class="select-btn-content">
                                     <div class="col-md-3 mpzero"><img class="gpimg mpzero" src="img/gm-garanti-plush.png" alt=""></div>
                                     <div class="col-md-9 mpzero">
                                         <div class="gpprice">80 TL</div>
-                                        <p style="width:80%;">GM Garanti Plus ile garanti sürenizi 3 yıl yapalım.</p>
+                                        <p class="pwidth">GM Garanti Plus ile garanti sürenizi 3 yıl yapalım.</p>
 
                                         <p><a href="#">Detaylı bilgi al</a></p>
                                     </div>
                                 </div>
-                                <input type="checkbox" name="SupportPackage" value="GM Hep Güvende" style="margin-top:15px;"> <a href="#">Kullanım şartlarını ve sözleşmeyi onaylıyorum</a>
+                                <input type="checkbox" name="SupportPackage" value="GM Garanti Plus" style="margin-top:15px;"> <a href="/tr/gm-garanti-plus">Kullanım şartlarını ve sözleşmeyi onaylıyorum</a>
                             </div>
                         </label>
 
                     </div>
 
-                    <div class="col-md-12 mpzero prb20">
+                    <div class="col-md-12 mpzero prb20 text-xs-center">
                         <label>
                             <div class="select-btn2">
                                 <div class="select-btn-content">
                                     <div class="col-md-3 mpzero"><img class="gpimg mpzero" src="img/gm-hep-yeni.png" alt=""></div>
                                     <div class="col-md-9 mpzero">
                                         <div class="gpprice">220 TL</div>
-                                        <p style="width:80%;">GM Hep Yeni ile telefonunuzu satın aldığınız fiyat kadar bir sonraki telefonunuzda indirim yapalım.</p>
+                                        <p class="pwidth">GM Hep Yeni ile telefonunuzu satın aldığınız fiyat kadar bir sonraki telefonunuzda indirim yapalım.</p>
 
                                         <p><a href="#">Detaylı bilgi al</a></p>
                                     </div>
                                 </div>
-                                <input type="checkbox" name="SupportPackage" value="GM Hep Güvende" style="margin-top:15px;"> <a href="#">Kullanım şartlarını ve sözleşmeyi onaylıyorum</a>
+                                <input type="checkbox" name="SupportPackage" value="GM Hep Yeni" style="margin-top:15px;"> <a href="/tr/gm-hep-yeni">Kullanım şartlarını ve sözleşmeyi onaylıyorum</a>
                             </div>
                         </label>
 
@@ -582,6 +579,8 @@
             </div>
         </div>
     </section>
+
+<!-- new checkout html end -->
 
     <footer id="gm-footer" style="">
         <div class="container">
