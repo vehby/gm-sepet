@@ -1,0 +1,28 @@
+{
+  "name": "gm-sepet-sayfasi",
+  "version": "1.0.1",
+  "description": "Generalmobile.com sepet sayfasının geliştirilmesi.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Generalmobile.com sepet sayfasının geliştirilmesi."
+  },
+  "keywords": [
+    "Generalmobile.com",
+    "sepet",
+    "sayfasının",
+    "geliştirilmesi."
+  ],
+  "author": "vehby",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-file-include": "^2.1.0"
+  }
+}
