@@ -562,7 +562,55 @@
 	width: 80%;
 }
 
-
+.sticky-add-to-cart {
+  border-top: 1px solid #d6d6d6;
+  padding: 15px;
+  background: #f2f2f2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: -160px;
+  z-index: 999;
+  transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+.sticky-add-to-cart-fixed{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  bottom:0;
+}
+.sticky-add-to-cart-left{
+	padding:15px;
+	display: flex;
+	justify-content: flex-start;
+}
+.sticky-add-to-cart-img img{
+	padding-right: 15px;
+	width: 50px;
+}
+.sticky-add-to-cart-right{
+	float: right;
+}
+.sticky-add-to-cart-title h2{
+	padding:0 0 5px 0;
+	margin: 0;
+}
+.sticky-add-to-cart-title p{
+	padding: 0;
+	margin: 0;
+}
+.sticky-add-to-cart-right-button button {
+	width: 200px;
+	height: 40px;
+}
+.sticky-add-to-cart-right-price h5 {
+	text-align: center;
+}
+#price-total {
+	font-size: 14px;
+}
 /*
   ##Device = Tablets, Ipads (landscape)
   ##Screen = B/w 768px to 1024px
@@ -625,5 +673,14 @@
 	.select-btn2 .pwidth {
 		width: 100%;
 	}
+	.sticky-add-to-cart-right
+	{
+		width: 100%;
+	}
+	.sticky-add-to-cart-right-button button {
+		width: 100%;
+		height: 40px;
+	}
+
 }
 /* checkout page css end */

@@ -24,7 +24,7 @@
     <link rel="home" href="https://www.generalmobile.com/">
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.min.css">
     <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <link rel="stylesheet" href="css/style-min.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link href="https://www.generalmobile.com/Content/gm?v=bnWdVsaeeM1Gcm-L5cEQ3vsNK6Eak7LEFc4f2JAggJ81" rel="stylesheet" />
 
@@ -419,7 +419,7 @@
                     </div>
                     <div class="col-md-6 mpzero prb20 selectbottonmobile">
                         <div class="select-btn" onclick="smoothScroll(document.getElementById('phonecolors'))">
-                            <input type="radio" name="color" value="gold" class="form-selector">
+                            <input type="radio" name="phonecolors" value="gold" class="form-selector">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/golden-color-icon.png" alt="Gold">Gold (Altın)
                             </div>
@@ -427,7 +427,7 @@
                     </div>
                     <div class="col-md-6 mpzero prb20 selectbottonmobile">
                         <div class="select-btn" onclick="smoothScroll(document.getElementById('phonecolors'))">
-                            <input type="radio" name="color" value="black" class="form-selector">
+                            <input type="radio" name="phonecolors" value="black" class="form-selector">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/black-color-icon.png" alt="Black">Black (Siyah)
                             </div>
@@ -435,7 +435,7 @@
                     </div>
                     <div class="col-md-6 mpzero prb20 selectbottonmobile">
                         <div class="select-btn" onclick="smoothScroll(document.getElementById('phonecolors'))">
-                            <input type="radio" name="color" value="grey" class="form-selector">
+                            <input type="radio" name="phonecolors" value="grey" class="form-selector">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/space-gray-color-icon.png" alt="Grey">SpaceGray (Uzay Gri)
                             </div>
@@ -444,7 +444,7 @@
                     <div class="col-md-6 mpzero prb20 selectbottonmobile">
                         <input type="radio" name="color" value="red" class="form-selector">
                         <div class="select-btn" onclick="smoothScroll(document.getElementById('phonecolors'))">
-                            <input type="radio" name="color" value="red" class="form-selector">
+                            <input type="radio" name="phonecolors" value="red" class="form-selector">
                             <div class="select-btn-content">
                                 <img class="colorimg" src="img/golden-color-icon.png" alt="Red">Red (Kırmızı)
                             </div>
@@ -468,7 +468,7 @@
                     </div>
                     <div class="col-md-3 col-xs-12 mpzero prb20 selectbottonmobile">
                         <div class="select-btn text-center" onclick="smoothScroll(document.getElementById('capacity'))">
-                            <input type="radio" name="capacity" value="64 GB" class="form-selector">
+                            <input type="radio" name="capacity" value="64 GB" class="form-selector" id="capacityone"> 
                             <div class="select-btn-content phone-capacity">
                                 64 GB
                                 <br>
@@ -579,6 +579,34 @@
             </div>
         </div>
     </section>
+
+    <div class="sticky-add-to-cart">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-xs-12 hidden-xs">
+                    <div class="sticky-add-to-cart-left">
+                        <div class="sticky-add-to-cart-img">
+                            <img src="https://assets.generalmobile.com/images/gm9-pro/basket/gm9pro-gold-front-mini.png" width="50px;" alt="">
+                        </div>
+                        <div class="sticky-add-to-cart-title">
+                            <h2>GM 9 Go</h2>
+                            
+                                <p><strong>Renk : </strong>Gold  <span><strong>Kapasite : </strong>64 GB</span> <strong>Sim : </strong>Tek Sim Kart</p>
+                                <p>GM Ekstra Destek Paketi</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12">
+                    <div class="sticky-add-to-cart-right">
+                        <div class="sticky-add-to-cart-right-price"><h5 class="f24 fw-bold"><span id="price-total">Toplam : </span>1.499,00 TL</h5>
+                        </div>
+                        <div class="sticky-add-to-cart-right-button"><button class="btn btn-orange">Sepete Ekle</button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- new checkout html end -->
 
@@ -731,8 +759,7 @@
         </div>
     </div>
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
-
-
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>

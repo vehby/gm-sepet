@@ -13,6 +13,21 @@ $(document).ready(function(){
 
 
 
+// show sticky bar 
+$(function(){
+  $(window).scroll(function() {
+        if ($(this).scrollTop() > 1){  
+            $('.sticky-add-to-cart').addClass("sticky-add-to-cart-fixed");
+          }
+          else{
+            $('.sticky-add-to-cart').removeClass("sticky-add-to-cart-fixed ");
+          }
+});
+});
+// show sticky bar end
+
+
+
 // SupportPackage js
 $('input:checkbox').change(function(){
     if($(this).is(":checked")) {
@@ -102,3 +117,15 @@ window.smoothScroll = function(target) {
 
 
 // smooth scroll BLA BLA
+
+
+
+
+
+
+
+
+
+
+
+
